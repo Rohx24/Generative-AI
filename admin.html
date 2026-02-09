@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NovaCraft Admin</title>
+  <meta name="description" content="NovaCraft admin dashboard" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <main class="admin-wrapper">
+    <div class="container">
+      <div id="loginPanel" class="card" style="max-width:420px;margin:0 auto;">
+        <h2>Admin access</h2>
+        <p class="muted">Enter the password to manage NovaCraft content.</p>
+        <label>Password
+          <input type="password" id="adminPassword" placeholder="Password" />
+        </label>
+        <button class="btn btn-primary" id="loginBtn">Unlock dashboard</button>
+        <p class="form-note" id="loginNote"></p>
+      </div>
+
+      <div id="adminApp" style="display:none;">
+        <div class="admin-grid">
+          <aside class="admin-nav">
+            <button data-panel="dashboard" class="active">Overview</button>
+            <button data-panel="sections">Sections</button>
+            <button data-panel="projects">Projects</button>
+            <button data-panel="services">Services</button>
+            <button data-panel="testimonials">Testimonials</button>
+            <button data-panel="faqs">FAQs</button>
+            <button data-panel="blog">Blog</button>
+            <button data-panel="seo">SEO</button>
+            <button data-panel="theme">Theme</button>
+            <button data-panel="contacts">Contacts</button>
+          </aside>
+          <section class="admin-panel active" id="panel-dashboard">
+            <h2>Overview</h2>
+            <p class="muted">Quick info about your site and content inventory.</p>
+            <div id="dashboardStats" class="admin-inline"></div>
+            <div class="admin-actions">
+              <button class="btn btn-ghost" id="resetStorage">Reset to data.json</button>
+              <button class="btn btn-primary" id="saveAll">Save changes</button>
+            </div>
+          </section>
+          <section class="admin-panel" id="panel-sections">
+            <h2>Sections & Copy</h2>
+            <div id="sectionsList" class="admin-list"></div>
+            <div class="admin-form" id="sectionForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-projects">
+            <h2>Projects</h2>
+            <div id="projectsListAdmin" class="admin-list"></div>
+            <div class="admin-form" id="projectForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-services">
+            <h2>Services</h2>
+            <div id="servicesListAdmin" class="admin-list"></div>
+            <div class="admin-form" id="serviceForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-testimonials">
+            <h2>Testimonials</h2>
+            <div id="testimonialsListAdmin" class="admin-list"></div>
+            <div class="admin-form" id="testimonialForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-faqs">
+            <h2>FAQs</h2>
+            <div id="faqsListAdmin" class="admin-list"></div>
+            <div class="admin-form" id="faqForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-blog">
+            <h2>Blog Posts</h2>
+            <div id="postsListAdmin" class="admin-list"></div>
+            <div class="admin-form" id="postForm"></div>
+          </section>
+          <section class="admin-panel" id="panel-seo">
+            <h2>SEO Settings</h2>
+            <div id="seoForm" class="admin-form"></div>
+          </section>
+          <section class="admin-panel" id="panel-theme">
+            <h2>Theme</h2>
+            <div id="themeForm" class="admin-form"></div>
+          </section>
+          <section class="admin-panel" id="panel-contacts">
+            <h2>Contacts</h2>
+            <div class="admin-actions">
+              <button class="btn btn-ghost" id="downloadContacts">Download JSON</button>
+              <button class="btn btn-ghost" id="clearContacts">Clear all contacts</button>
+            </div>
+            <div id="contactsTable"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

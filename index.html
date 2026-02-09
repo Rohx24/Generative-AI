@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NovaCraft</title>
+  <meta name="description" content="NovaCraft — premium product design and growth." />
+  <meta name="theme-color" content="#0B0E13" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">
+        <span class="logo">NC</span>
+        <span class="brand-text">NovaCraft</span>
+      </a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+    </nav>
+    <div class="nav-drawer" id="navDrawer">
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#blog">Blog</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+    </div>
+  </header>
+
+  <main id="top" class="main">
+    <section id="hero" class="section hero" data-section="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Product Design • UX Strategy • Growth</p>
+          <h1 data-field="title">Build products that feel premium and perform.</h1>
+          <p class="lead" data-field="subtitle">I help founders and product teams ship design-led experiences that drive activation, retention, and revenue.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-field="ctaText" data-field-link="ctaLink" href="#contact">Book a 20-min intro</a>
+            <a class="btn btn-ghost" data-field="ctaSecondaryText" data-field-link="ctaSecondaryLink" href="#projects">View work</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>9+ years</h3>
+              <p>Design leadership</p>
+            </div>
+            <div>
+              <h3>28% avg.</h3>
+              <p>Conversion lift</p>
+            </div>
+            <div>
+              <h3>30+ launches</h3>
+              <p>Across SaaS & fintech</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span>Featured case study</span>
+            <span class="pill">2025</span>
+          </div>
+          <h3>Mono Workspace</h3>
+          <p>Unified a scattered design system and shipped a scalable UI library.</p>
+          <div class="hero-card-tags">
+            <span>Design Systems</span>
+            <span>B2B SaaS</span>
+            <span>Productivity</span>
+          </div>
+          <a href="#projects" class="text-link">See full projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="trust" class="section" data-section="trust">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Trusted by teams that ship fast</h2>
+          <p data-field="subtitle">Selected collaborations across fintech, SaaS, and consumer apps.</p>
+        </div>
+        <div class="trust-grid" id="trustList"></div>
+      </div>
+    </section>
+
+    <section id="services" class="section" data-section="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Services built for momentum</h2>
+          <p data-field="subtitle">Pick a package or request a custom scope.</p>
+        </div>
+        <div class="card-grid" id="servicesList"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" data-section="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Selected work</h2>
+          <p data-field="subtitle">A few outcomes across product, growth, and brand.</p>
+        </div>
+        <div class="projects-grid" id="projectsList"></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section" data-section="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Clients say it best</h2>
+          <p data-field="subtitle">High-trust partnerships that deliver measurable results.</p>
+        </div>
+        <div class="testimonial-grid" id="testimonialsList"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section" data-section="faq">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">FAQs</h2>
+          <p data-field="subtitle">Quick answers to common questions.</p>
+        </div>
+        <div class="faq-grid" id="faqList"></div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta" data-section="cta">
+      <div class="container cta-inner">
+        <div>
+          <h2 data-field="title">Ready to turn your roadmap into outcomes?</h2>
+          <p data-field="subtitle">Let’s clarify scope, timelines, and success metrics.</p>
+        </div>
+        <a class="btn btn-primary" data-field="ctaText" data-field-link="ctaLink" href="#contact">Start a project</a>
+      </div>
+    </section>
+
+    <section id="about" class="section" data-section="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 data-field="title">About NovaCraft</h2>
+          <p class="lead" data-field="subtitle">Product design with a business lens</p>
+          <p data-field="body">I’m Rohit, a senior product designer focused on early-stage and growth teams. Over the past 9 years, I’ve helped startups clarify positioning, simplify UX, and launch scalable design systems. I value direct communication, fast iterations, and measurable outcomes.</p>
+        </div>
+        <div class="about-card">
+          <h3>Capabilities</h3>
+          <ul>
+            <li>Product strategy & UX architecture</li>
+            <li>Design systems & UI libraries</li>
+            <li>Growth experiments & conversion copy</li>
+            <li>Go-to-market design sprints</li>
+          </ul>
+          <div class="about-meta">
+            <div>
+              <span>Based in</span>
+              <strong id="siteLocation">Bengaluru, IN</strong>
+            </div>
+            <div>
+              <span>Availability</span>
+              <strong>Limited slots</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section" data-section="blog">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Insights</h2>
+          <p data-field="subtitle">Notes on product strategy, UX, and growth.</p>
+        </div>
+        <div class="blog-grid" id="blogList"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" data-section="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 data-field="title">Let’s talk</h2>
+          <p class="lead" data-field="subtitle">Share a quick brief and I’ll reply within 24 hours.</p>
+          <div class="contact-card">
+            <p><strong>Email</strong> <span id="siteEmail">hello@novacraft.studio</span></p>
+            <p><strong>Phone</strong> <span id="sitePhone">+91 90000 12345</span></p>
+            <p><strong>Office hours</strong> Mon–Fri, 10:00–19:00 IST</p>
+          </div>
+        </div>
+        <form id="contactForm" class="form">
+          <div class="form-row">
+            <label>Name
+              <input type="text" name="name" required />
+            </label>
+            <label>Email
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <label>Company
+            <input type="text" name="company" />
+          </label>
+          <label>Project goals
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-row">
+            <label>Budget
+              <select name="budget" required>
+                <option value="">Select</option>
+                <option value="Under $2k">Under $2k</option>
+                <option value="$2k-$6k">$2k-$6k</option>
+                <option value="$6k-$12k">$6k-$12k</option>
+                <option value="$12k+">$12k+</option>
+              </select>
+            </label>
+            <label>Timeline
+              <select name="timeline" required>
+                <option value="">Select</option>
+                <option value="ASAP">ASAP</option>
+                <option value="2-4 weeks">2-4 weeks</option>
+                <option value="1-2 months">1-2 months</option>
+                <option value="3+ months">3+ months</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Send inquiry</button>
+          <button class="btn btn-ghost" type="button" id="exportContacts">Download inquiries JSON</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="privacy" class="section" data-section="privacy">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Privacy policy</h2>
+          <p data-field="body">We only collect the information you submit via the contact form. Your details are used solely to respond to your inquiry. You can request deletion at any time by emailing hello@novacraft.studio.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="terms" class="section" data-section="terms">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-field="title">Terms of use</h2>
+          <p data-field="body">All content is provided as-is and for informational purposes only. Unauthorized use or duplication without express permission is prohibited.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="logo">NC</span>
+          <span class="brand-text">NovaCraft</span>
+        </div>
+        <p class="muted">Modern, minimal, premium product design.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </div>
+      <div class="footer-cta">
+        <p>Let’s build something great.</p>
+        <a class="btn btn-primary" href="#contact">Start a project</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" data-close="projectModal">Close</button>
+      <div id="projectModalBody"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="blogModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" data-close="blogModal">Close</button>
+      <div id="blogModalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

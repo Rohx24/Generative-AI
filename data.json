@@ -1,0 +1,337 @@
+{
+  "site": {
+    "name": "NovaCraft",
+    "tagline": "Design-forward product work that moves metrics.",
+    "mode": "dark",
+    "accent": "#7CFFB2",
+    "logoText": "NC",
+    "location": "Bengaluru, IN",
+    "email": "hello@novacraft.studio",
+    "phone": "+91 90000 12345"
+  },
+  "seo": {
+    "home": {
+      "title": "NovaCraft — Product Design & Growth",
+      "description": "Premium product design, UX strategy, and conversion-focused execution for startups and global teams.",
+      "slug": ""
+    },
+    "about": {
+      "title": "About — NovaCraft",
+      "description": "Background, values, and the approach behind NovaCraft.",
+      "slug": "about"
+    },
+    "projects": {
+      "title": "Projects — NovaCraft",
+      "description": "Selected product design and growth projects.",
+      "slug": "projects"
+    },
+    "services": {
+      "title": "Services — NovaCraft",
+      "description": "Packages for design, UX, and conversion optimization.",
+      "slug": "services"
+    },
+    "blog": {
+      "title": "Insights — NovaCraft",
+      "description": "Practical product, UX, and growth insights.",
+      "slug": "blog"
+    },
+    "contact": {
+      "title": "Contact — NovaCraft",
+      "description": "Start a project or ask a question.",
+      "slug": "contact"
+    },
+    "privacy": {
+      "title": "Privacy Policy — NovaCraft",
+      "description": "How NovaCraft handles data.",
+      "slug": "privacy"
+    },
+    "terms": {
+      "title": "Terms — NovaCraft",
+      "description": "Website terms of use.",
+      "slug": "terms"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "label": "Hero",
+      "enabled": true,
+      "order": 1,
+      "content": {
+        "title": "Build products that feel premium and perform.",
+        "subtitle": "I help founders and product teams ship design-led experiences that drive activation, retention, and revenue.",
+        "ctaText": "Book a 20-min intro",
+        "ctaLink": "#contact",
+        "ctaSecondaryText": "View work",
+        "ctaSecondaryLink": "#projects"
+      }
+    },
+    {
+      "id": "trust",
+      "label": "Trust Indicators",
+      "enabled": true,
+      "order": 2,
+      "content": {
+        "title": "Trusted by teams that ship fast",
+        "subtitle": "Selected collaborations across fintech, SaaS, and consumer apps.",
+        "items": [
+          "Former design partner to ex-Google and Flipkart leaders",
+          "Projects shipped in India, UAE, UK, and US markets",
+          "Avg. 28% conversion uplift across recent launches",
+          "Backed by a tight delivery cadence and weekly demos"
+        ]
+      }
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "enabled": true,
+      "order": 3,
+      "content": {
+        "title": "Services built for momentum",
+        "subtitle": "Pick a package or request a custom scope."
+      }
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "enabled": true,
+      "order": 4,
+      "content": {
+        "title": "Selected work",
+        "subtitle": "A few outcomes across product, growth, and brand."
+      }
+    },
+    {
+      "id": "testimonials",
+      "label": "Testimonials",
+      "enabled": true,
+      "order": 5,
+      "content": {
+        "title": "Clients say it best",
+        "subtitle": "High-trust partnerships that deliver measurable results."
+      }
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "enabled": true,
+      "order": 6,
+      "content": {
+        "title": "FAQs",
+        "subtitle": "Quick answers to common questions."
+      }
+    },
+    {
+      "id": "cta",
+      "label": "CTA Block",
+      "enabled": true,
+      "order": 7,
+      "content": {
+        "title": "Ready to turn your roadmap into outcomes?",
+        "subtitle": "Let’s clarify scope, timelines, and success metrics.",
+        "ctaText": "Start a project",
+        "ctaLink": "#contact"
+      }
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "enabled": true,
+      "order": 8,
+      "content": {
+        "title": "About NovaCraft",
+        "subtitle": "Product design with a business lens",
+        "body": "I’m Rohit, a senior product designer focused on early-stage and growth teams. Over the past 9 years, I’ve helped startups clarify positioning, simplify UX, and launch scalable design systems. I value direct communication, fast iterations, and measurable outcomes."
+      }
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "enabled": true,
+      "order": 9,
+      "content": {
+        "title": "Insights",
+        "subtitle": "Notes on product strategy, UX, and growth."
+      }
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "enabled": true,
+      "order": 10,
+      "content": {
+        "title": "Let’s talk",
+        "subtitle": "Share a quick brief and I’ll reply within 24 hours."
+      }
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy",
+      "enabled": true,
+      "order": 11,
+      "content": {
+        "title": "Privacy policy",
+        "body": "We only collect the information you submit via the contact form. Your details are used solely to respond to your inquiry. You can request deletion at any time by emailing hello@novacraft.studio."
+      }
+    },
+    {
+      "id": "terms",
+      "label": "Terms",
+      "enabled": true,
+      "order": 12,
+      "content": {
+        "title": "Terms of use",
+        "body": "All content is provided as-is and for informational purposes only. Unauthorized use or duplication without express permission is prohibited."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-aurora",
+      "title": "Aurora Pay",
+      "client": "Fintech",
+      "year": "2024",
+      "tags": ["Payments", "Onboarding", "Growth"],
+      "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+      "summary": "Redesigned onboarding to cut drop-offs and boost card activation.",
+      "challenge": "Activation lagged at 42% due to long verification flows.",
+      "solution": "Streamlined onboarding, split KYC into micro-steps, and added trust cues.",
+      "results": "Activation improved to 62% within 6 weeks and support tickets dropped 31%.",
+      "link": "https://example.com"
+    },
+    {
+      "id": "proj-lumen",
+      "title": "Lumen Health",
+      "client": "HealthTech",
+      "year": "2023",
+      "tags": ["Mobile", "Retention", "UX"],
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "summary": "Built a habit-forming coaching experience for busy professionals.",
+      "challenge": "DAU/MAU stalled at 18% and churn spiked after week two.",
+      "solution": "Introduced progress loops, tailored plans, and a calmer UI system.",
+      "results": "Retention improved by 22% and referrals doubled quarter-over-quarter.",
+      "link": "https://example.com"
+    },
+    {
+      "id": "proj-mono",
+      "title": "Mono Workspace",
+      "client": "SaaS",
+      "year": "2025",
+      "tags": ["B2B", "Productivity", "Design Systems"],
+      "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1200&q=80",
+      "summary": "Unified a scattered design system across 5 product squads.",
+      "challenge": "Inconsistent UI patterns slowed release velocity.",
+      "solution": "Created a shared component library and usage guidelines.",
+      "results": "Reduced design-to-dev time by 35% and boosted NPS by 12 points.",
+      "link": "https://example.com"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-essentials",
+      "name": "Sprint Essentials",
+      "price": "$2,400",
+      "period": "per 2-week sprint",
+      "description": "Focused UX improvements and rapid prototyping to unblock product teams.",
+      "features": ["Product audit", "UX flows", "Prototype & user feedback", "Weekly handoff"],
+      "ctaText": "Start a sprint"
+    },
+    {
+      "id": "svc-growth",
+      "name": "Growth Launch",
+      "price": "$6,900",
+      "period": "per launch",
+      "description": "End-to-end experience design for new launches or major releases.",
+      "features": ["Positioning + narrative", "Full UI kit", "Conversion copy", "Launch support"],
+      "ctaText": "Plan a launch"
+    },
+    {
+      "id": "svc-partner",
+      "name": "Design Partner",
+      "price": "$3,500",
+      "period": "per month",
+      "description": "Ongoing product design support with priority response times.",
+      "features": ["Weekly roadmap sync", "Design ops + system", "Growth experiments", "Slack access"],
+      "ctaText": "Become a partner"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t-1",
+      "name": "Aanya Mehta",
+      "role": "Founder",
+      "company": "ChargePilot",
+      "quote": "NovaCraft aligned our team fast and shipped a launch that exceeded targets. Clear thinking, zero fluff.",
+      "image": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "t-2",
+      "name": "Vikram Sethi",
+      "role": "VP Product",
+      "company": "Workdayo",
+      "quote": "The UX improvements directly lifted activation. The delivery cadence was sharp and reliable.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "t-3",
+      "name": "Lina Ortiz",
+      "role": "Head of Growth",
+      "company": "GlidePay",
+      "quote": "Great design taste paired with measurable impact. We kept expanding the scope.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "f-1",
+      "q": "How fast can you start?",
+      "a": "Typically within 1-2 weeks. For urgent work, a fast-track slot is sometimes available."
+    },
+    {
+      "id": "f-2",
+      "q": "Do you work with early-stage teams?",
+      "a": "Yes. I often partner with pre-seed to Series B teams on product and growth design."
+    },
+    {
+      "id": "f-3",
+      "q": "What does collaboration look like?",
+      "a": "Weekly demos, async updates, and shared Figma/Notion spaces."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p-1",
+      "title": "Designing for trust in fintech onboarding",
+      "date": "2025-11-08",
+      "excerpt": "Trust cues are not just visuals; they reduce cognitive load and shorten time to activation.",
+      "content": "In fintech, users are cautious. Start with transparent copy, visible security cues, and clear timelines. A short checklist with progress indicators can reduce anxiety. You can also use pre-filled data to make verification feel lighter. The goal is to keep the user in control while guiding them forward.",
+      "author": "Rohit Diggi",
+      "cover": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+      "tags": ["Fintech", "UX"],
+      "slug": "designing-for-trust"
+    },
+    {
+      "id": "p-2",
+      "title": "The 3-layer UX audit",
+      "date": "2025-09-22",
+      "excerpt": "A quick audit method to spot high-impact issues without a 50-page report.",
+      "content": "Layer one checks clarity: does the user know what happens next? Layer two checks friction: what steps can be removed? Layer three checks persuasion: where is the proof and why should the user care? This lightweight framework helps teams prioritize fixes in days, not weeks.",
+      "author": "Rohit Diggi",
+      "cover": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+      "tags": ["Frameworks", "Growth"],
+      "slug": "three-layer-ux-audit"
+    },
+    {
+      "id": "p-3",
+      "title": "From research to launch: a 5-week cadence",
+      "date": "2025-07-14",
+      "excerpt": "A cadence that keeps velocity while improving quality across teams.",
+      "content": "Week 1 is discovery and alignment. Week 2 is flow + UX prototyping. Week 3 is high-fidelity UI and handoff. Week 4 is build support. Week 5 is launch and measurement. This rhythm keeps product and engineering aligned with minimal drift.",
+      "author": "Rohit Diggi",
+      "cover": "https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=1200&q=80",
+      "tags": ["Process"],
+      "slug": "five-week-cadence"
+    }
+  ]
+}
